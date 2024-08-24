@@ -6,7 +6,8 @@ import NavBar from './components/NavBar/NavBar'
 import About from './components/About/About'
 import Intern from './components/Intern/Intern'
 import Courses from './components/Courses/Courses'
-import Login from './components/Login/Login'
+import Signup from './components/Signup/Signup'
+import Login from './components/Signup/Login'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/internships' element={<Intern/>}/>
       <Route path='/courses' element={<Courses/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/signup' element={<Signup/>}/>
       </Routes>
     </div>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react';
-import './Login.css'
+import './Signup.css'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
     const initialValues = {
@@ -116,10 +117,11 @@ const Login = () => {
                         <p>{formErrors.confirmPassword}</p>
                         <button className="fluid ui button blue">Submit</button>
                     </div>
-                </form>
-                <div className="text">
-                    Already have an account? <span>Login</span>
+                    <div className="text">
+                    Already have an account? <Link to='/login'>Login</Link>
                 </div>
+                </form>
+                
             </div>{" "}
         </div>
     )

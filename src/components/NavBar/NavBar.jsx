@@ -18,7 +18,7 @@ const NavBar = () => {
             <li><Link to='/jobs'>Jobs</Link></li>
             <li><Link to='/internships'>Internships</Link></li>
             <li><Link to='/courses'>Courses</Link></li>
-            <li><Link className="btn" to='/login'>Login</Link></li>
+            <li><Link className="btn" to='/login'>Login/Sign Up</Link></li>
         </ul>
         <img src={menu} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
