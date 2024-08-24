@@ -33,3 +33,10 @@ hr{
     border: none;
     margin: 0px 30px;
 }
+
+@media screen and (max-width: 350px) {
+    .job-items-item a{
+        padding: 1px;
+    }
+    
+}
