@@ -1,0 +1,52 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(172, 171, 171);
+    background: linear-gradient(rgba(0, 0, 0, 0.764),rgba(0, 0, 0, 0.7)),url('https://cdn.phenompeople.com/CareerConnectResources/KIVKBRUS/images/MicrosoftTeams-image102[1920x927]web-1664813477508.jpg');
+}
+.about-title{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.about-head{
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.about-para{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    max-width: 30rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .about-title{
+        font-size: 1.5rem;
+    }
+    .about-head{
+        font-size: 1.25rem;
+    }
+    .about-para{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .about-title{
+        font-size: 1.25rem;
+    }
+    .about-head{
+        font-size: 1rem;
+    }
+    .about-para{
+        font-size: 0.9rem;
+    }
+    
+}

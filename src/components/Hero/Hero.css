@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.764),rgba(0, 0, 0, 0.7)),url('../../assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+}
+.hero-text p{
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.4;
+}
+
+.cssbuttons-io-button {
+    background: #FFF;
+    color: #212121;
+    font-family: inherit;
+    padding: 14px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #000000;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
+
+/*------------ media query ------------*/
+
+@media (max-width: 850px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+    .hero-text p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}

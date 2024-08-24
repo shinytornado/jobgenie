@@ -1,0 +1,35 @@
+.joboffer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.joboffertitle{
+    margin: 40px;
+}
+.job-title{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    font-size: max(1vw,12px);
+}
+.job-items-item{
+    margin-top: 15px;
+    /* margin: 10px; */
+    padding: 10px;
+}
+.title{
+    font-weight: 700;
+}
+.job-items-item a{
+    border: 1px solid #000;
+    padding: 10px;
+}
+.job-items-item a:hover{
+    background-color: lightgray;
+}
+hr{
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+    margin: 0px 30px;
+}

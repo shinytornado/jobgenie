@@ -1,0 +1,109 @@
+.courses{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.5rem;
+    justify-content: center;
+}
+.courseHead h3{
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+.courseHead{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.courseHeadTxt{
+    letter-spacing: 0.15rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    margin: 1rem 10rem;
+}
+
+.grid-con img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+    
+}
+.grid-con:hover{
+    transform:matrix(1.05, 0, 0, 1.05, 0, 0);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+.grid-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #f5f3f3;
+
+} */
+.grid-container{
+    margin: 60px auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+.program img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.program{
+    flex-basis: 31%;
+    position: relative;
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.632);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1.5rem;
+    opacity: 1;
+    padding-top: 0;
+    cursor: pointer;
+}
+.program:hover .caption p{
+    transform: scale(1.35);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 768px){
+    .grid-container{
+        justify-content: center;
+        width: 90%;
+    }
+    .program{
+        flex-basis: 48%;
+    }
+    .caption{
+        font-size: 1.2rem;
+    }
+}
