@@ -41,6 +41,10 @@ hr{
         font-size: max(1vw,12px);
     }
     .job-items-item a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 35px;     
         font-size: 0.5fr;
         padding: 1px;
     }
