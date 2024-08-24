@@ -14,11 +14,11 @@ const NavBar = () => {
     <nav className="navbar">
         <Link className="logo" to='/'>Job Genie</Link>
         <ul className={mobileMenu?'':'hide-mobile-menu'}>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/jobs'>Jobs</Link></li>
-            <li><Link to='/internships'>Internships</Link></li>
-            <li><Link to='/courses'>Courses</Link></li>
-            <li><Link className="btn" to='/login'>Login</Link></li>
+            <li onClick={toggleMenu}><Link to='/'>Home</Link></li>
+            <li onClick={toggleMenu}><Link to='/jobs'>Jobs</Link></li>
+            <li onClick={toggleMenu}><Link to='/internships'>Internships</Link></li>
+            <li onClick={toggleMenu}><Link to='/courses'>Courses</Link></li>
+            <li onClick={toggleMenu}><Link className="btn" to='/login'>Login</Link></li>
         </ul>
         <img src={menu} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
